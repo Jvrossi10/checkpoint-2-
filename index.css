@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+} 
+
+a {
+    text-decoration: none;
+}
+
+body {
+  background-color: #FFFFFF; 
+}
+
+header { 
+    width: 100%;
+    height: 10vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;  
+    position: fixed; 
+    z-index: 99;
+} 
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#div-header { 
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+} 
+
+#logo img {
+    width: 15vw;
+    height: 10vh; 
+}
+
+
+#menu{
+    display: flex; 
+    width: 40%; 
+    justify-content: center; 
+
+}
+
+#menu-ul { 
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+       
+} 
+
+.menu-li {
+    margin: 2%;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.menu-li:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out; 
+    border: 2px #0a0a0a solid; 
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#div-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img-banner.png'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}  
+
+#texto-banner { 
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large; 
+
+}
+
+#titulo-banner{
+    color: #97031e; 
+    margin-bottom: 0.5%;
+    margin-left: 0%;
+}
+
+#p-banner {
+    color: antiquewhite; 
+    margin-bottom: 0.5%;
+} 
+
+#botao-banner {
+    position: relative; 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.2));
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+
+} 
+
+#botao-banner:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    background-color: green;
+}
+
+#titulo-artistas { 
+    margin-top: 2%;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    color: #0a0a0a;
+    font-family: 'Roboto', sans-serif; 
+
+} 
+
+
+#artistas { 
+    margin-top: 2%;
+    width: 98%;
+    height: 100vh; 
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}  
+
+.div-itens {
+     width: 22vw;
+     height: 40vh; 
+     background: rgba(189, 188, 186, 0.3);
+     box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.37);
+     backdrop-filter: blur( 12px );
+     -webkit-backdrop-filter: blur( 12px );
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column; 
+     color: #0c0b0b; 
+     align-items: center; 
+     justify-content: space-evenly; 
+     font-family: 'Roboto', sans-serif;
+} 
+
+.div-itens:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.div-itens img { 
+    width: 90%;
+    height: 50%; 
+    border-radius: 10px;
+} 
+
+.div-itens p {
+    width: 90%;
+    text-align: center;
+} 
+
+#background-spotify {
+    width: 96%; 
+    height: 60vh;
+    background: rgb(156,40,141);
+    background: radial-gradient(circle, rgba(156,40,141,2) 20%, rgba(9,121,86,1) 40%, rgba(0,212,255,1) 40%);
+    display: flex;
+    flex-direction: column ;
+    align-items: center; 
+    padding: 2%; 
+    font-family: 'Roboto', sans-serif;
+}
+
+#titulo-spotify {
+    margin-bottom: 2%;
+}
+
+#alta-spotify { 
+    width: 100%; 
+    height: 50vh;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+#nacionais {
+    width: 30%;
+    height: 100%; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#alta-spotify h3 {
+    padding: 2%; 
+    margin-bottom: 1%; 
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.45 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#internacionais {
+    width: 30%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+} 
+
+footer {
+    width: 100%;
+    height: 40vh; 
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-color: rgb(0, 0, 0); 
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+#aluno {
+    width: 30%;
+    height: 70%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+} 
+
+#aluno p {
+    margin-bottom: 5%;
+}
+
+#links {
+    width: 80%; 
+    height: 80%; 
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly; 
+    margin-bottom: -15%;
+}
+
+#links a img {
+    width: 100%;
+    height: 50%;
+}
+
+#footer-dh {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   margin-top: 5%;
+}
+
+#footer-dh img {
+    width: 50%;
+    height: 50%; 
+       
+}
