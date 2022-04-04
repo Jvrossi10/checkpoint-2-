@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+  background-color: #FFFFFF; 
+  font-family: 'Roboto', sans-serif;
+}
+
+header { 
+    width: 100%;
+    height: 10vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;  
+    position: fixed; 
+    z-index: 99;
+} 
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#div-header { 
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+} 
+
+#logo img {
+    width: 15vw;
+    height: 10vh; 
+}
+
+
+#menu{
+    display: flex; 
+    width: 40%; 
+    justify-content: center; 
+
+}
+
+#menu-ul { 
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+       
+} 
+
+.menu-li {
+    margin: 2%;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.menu-li:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out; 
+    border: 2px #0a0a0a solid; 
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#banner-cage { 
+    width: 100%;
+    height: 100vh; 
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Cage_The_Elephant_Live_%40_Bonnaroo_2017.jpg/800px-Cage_The_Elephant_Live_%40_Bonnaroo_2017.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    
+}
+
+#txt-banner { 
+    width: 100%; 
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+#txt-banner h1 {
+    text-align: start; 
+    color: #97031e; 
+    font-size: 50px; 
+    font-family: 'Roboto', sans-serif;
+} 
+
+#botao-banner { 
+    position: relative; 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.2));
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+
+} 
+
+#botao-banner:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    background-color: green;
+}
+
+#titulo-historia {
+    width: 100%;
+    height: 10vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+#titulo-historia h2 {
+    border: 2px #97031e solid ;
+    border-radius: 10px; 
+    margin-top: 2%;
+    padding: 1% 10%; 
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(21, 22, 27, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+       
+}
+
+#historia-cage { 
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+#img-historia {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+#img-historia img { 
+    width: 100%;  
+    border-radius: 10px;
+    -webkit-box-shadow: 12px 12px 15px 1px rgba(0,0,0,0.64); 
+    box-shadow: 12px 12px 15px 1px rgba(0,0,0,0.64);
+    
+}
+
+#txt-historia {
+    margin-top: 2%;
+    width: 40%;
+    height: 65%;  
+    padding: 2%;
+    text-align: center; 
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: 10%;
+
+    
+} 
+
+#txt-historia:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+#div-membros {
+    width: 100%;
+    height: 100vh; 
+    display: flex; 
+    padding: 2%; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: rgb(0, 0, 0); 
+    color: #FFFFFF;
+
+}
+
+#membros { 
+    width: 90%;
+    height: 100vh; 
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+    flex-direction: column; 
+    flex-wrap: wrap;
+
+}
+
+.membros { 
+    width: 45%;
+    height: 20%;
+    border: 2px solid #ffffff;
+    border-radius: 10px; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.membros:hover {
+    transform: scale(1.1);
+    transition: all 0.5 ease-in-out;
+}
+
+#foto-matt { 
+    width: 40%;
+    height: 85%;
+    border-radius: 10px; 
+    background-image: url('https://i.ytimg.com/vi/YclaqsUP1Lk/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#foto-brad {
+    width: 40%;
+    height: 85%;
+    border-radius: 10px; 
+    background-image: url('https://monkeybuzz.com.br/wp-content/uploads/2013/05/brad-shultz-cage-the-elephant-plastic-visions-projeto-paralelo-ep-streaming.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto-daniel {
+    width: 40%;
+    height: 85%;
+    border-radius: 10px; 
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMDIzZmY3YWItMmFiNy00ODY1LTk2OTktZjM5NmMzZGIxMmFlXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto-nick {
+    width: 40%;
+    height: 85%;
+    border-radius: 10px; 
+    background-image: url(' https://consequence.net/wp-content/uploads/2019/06/Cage-the-Elephant-canceled-tour-europe-guitarist-Nick-Bockrath-leg-injury.png?w=800&h=488&crop=1&resize=1031%2C580&quality=80&strip');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto-matthan {
+    width: 40%;
+    height: 85%;
+    border-radius: 10px; 
+    background-image: url('https://64.media.tumblr.com/131998ac459dcff6fce1b2fbd3ff06e0/face3c42e3cccab5-07/s540x810/ef1ebc4d7ca3fbd1966c0b6e8aa0225d144d5e62.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#foto-jared {
+    width: 40%;
+    height: 85%;
+    border-radius: 10px; 
+    background-image: url('https://pbs.twimg.com/media/ERy3IFwUUAAuCbF.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.membros-txt {
+    width: 50%;
+    height: 90%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.membros p { 
+    width: 60%;
+    text-align: center;
+}
+
+
+#background-spotify {
+    width: 96%; 
+    height: 60vh;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 85%);
+    display: flex;
+    flex-direction: column ;
+    align-items: center; 
+    padding: 2%; 
+    font-family: 'Roboto', sans-serif;
+}
+
+#titulo-spotify {
+    margin-bottom: 2%; 
+    padding: 1%;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba(4, 4, 7, 0.45);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#alta-spotify { 
+    width: 100%; 
+    height: 50vh;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+#nacionais {
+    width: 50%;
+    height: 100%; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#alta-spotify h3 {
+    padding: 2%; 
+    margin-bottom: 1%; 
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba(4, 4, 7, 0.45);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+footer {
+    width: 100%;
+    height: 40vh; 
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-color: rgb(0, 0, 0); 
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+#aluno {
+    width: 30%;
+    height: 70%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+} 
+
+#aluno p {
+    margin-bottom: 5%;
+}
+
+#links {
+    width: 80%; 
+    height: 80%; 
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly; 
+    margin-bottom: -15%;
+}
+
+#links a img {
+    width: 100%;
+    height: 50%;
+}
+
+#footer-dh {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   margin-top: 5%;
+}
+
+#footer-dh img {
+    width: 50%;
+    height: 50%; 
+       
+} 
+
