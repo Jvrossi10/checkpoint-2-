@@ -158,9 +158,12 @@ main {
 }
 
 
-#img-historia img { 
-    width: 100%; 
-    
+#img-historia { 
+    width: 50%; 
+    height: 62%;
+    background-image: url('https://artisticsolutions.com.br/image/cache/catalog/41-9utO4EZL._SL500_AC_SS350_-800x800.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #txt-historia {
