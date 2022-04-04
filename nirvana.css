@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  background-color: #F7F7F7; 
+  background-color: #FFFFFF; 
   font-family: 'Roboto', sans-serif;
 }
 
@@ -165,7 +165,7 @@ main {
 
 #txt-historia {
     width: 70%;
-    height: 45%;  
+    height: 65%;  
     padding: 2%;
     text-align: center; 
     background: rgba( 255, 255, 255, 0.25 );
