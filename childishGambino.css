@@ -78,10 +78,10 @@ main {
     text-decoration: underline;
  }
 
-#banner-rhcp { 
+#banner-cg { 
     width: 100%;
     height: 100vh; 
-    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/04/GettyImages-73490544-e1648811622615.jpg');
+    background-image: url('https://rocknbold.com/wp-content/uploads/2019/12/childish-gambino-7ff00661.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;  
@@ -91,7 +91,7 @@ main {
 #txt-banner { 
     width: 100%; 
     height: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -115,7 +115,7 @@ main {
     padding: 20px;
     width: 200px;
     text-align: center;
-
+    top: 1%
 } 
 
 #botao-banner:hover {
@@ -145,9 +145,9 @@ main {
        
 }
 
-#historia-rhcp { 
+#historia-cg { 
     width: 70vw;
-    height: 90vh; 
+    height: 80vh; 
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
@@ -155,21 +155,26 @@ main {
 } 
 
 #img-historia {
-    
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
 
 
-#img-historia img { 
-    width: 60%;
- 
+#img-historia { 
+    width: 50%; 
+    height: 62%;
+    background-image: url('https://stickersquid.co/wp-content/uploads/2019/04/omik-childish-gabino.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    border-radius: 10px; 
+   
 }
 
 #txt-historia {
-    width: 90%;
-    height: 65%;  
+    width: 70%;
+    height: 40%;  
     padding: 2%;
     text-align: center; 
     background: rgba( 255, 255, 255, 0.25 );
@@ -178,6 +183,8 @@ main {
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: 10%;
+
     
 } 
 
@@ -186,19 +193,23 @@ main {
     transition: all 0.5s ease-in-out;
 }
 
-#div-membros {
+#div-thisIsAmerica {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
-    background-color: rgb(0, 0, 0); 
+    background-image: url('https://api.time.com/wp-content/uploads/2018/05/donald-glover-this-is-america-2.png') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
     color: #FFFFFF;
 
 }
 
-#membros { 
+#id-thisIsAmerica{ 
     width: 100%;
     height: 70vh; 
     display: flex; 
@@ -207,42 +218,44 @@ main {
     align-items: center;
 }
 
-.membros { 
-    width: 23%;
-    height: 100%;
-    border: 2px solid #ffffff;
-    border-radius: 10px; 
+.historia-thisIsAmerica { 
+    width: 40%;
+    height: 100%; 
+    padding: 1%;
     display: flex; 
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-}
+    align-items: center; 
+    text-align: center; 
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba(2, 2, 3, 0.37);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #000;
+} 
 
-.membros:hover {
+.historia-thisIsAmerica:hover {
     transform: scale(1.1);
     transition: all 0.5 ease-in-out;
 }
 
-.membros img { 
-    width: 90%;
-    height: 35%;
-    border-radius: 10px;
-} 
-
-.membros p { 
-    width: 90%;
-    text-align: center;
+.foto-thisIsAmerica {
+    
+    width: 25%;
+    height: 70%;
+    background-position: center; 
+    background-size: cover;
 }
-
-
 
 
 
 #background-spotify {
     width: 96%; 
     height: 60vh;
-    background: rgb(173,21,7);
-    background: radial-gradient(circle, rgba(173,21,7,1) 0%, rgba(22,1,5,1) 73%);
+    background: rgb(99,47,41);
+background: radial-gradient(circle, rgba(99,47,41,1) 23%, rgba(0,0,0,1) 85%);
     display: flex;
     flex-direction: column ;
     align-items: center; 
@@ -269,7 +282,7 @@ main {
     align-items: center;
 } 
 
-#nacionais {
+.div-alta {
     width: 30%;
     height: 100%; 
     display: flex; 
@@ -281,23 +294,12 @@ main {
     padding: 2%; 
     margin-bottom: 1%; 
     background: rgba( 255, 255, 255, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba(4, 4, 7, 0.45);
+    box-shadow: 5px 8px 32px 5px rgba(4, 4, 7, 0.65);
     backdrop-filter: blur( 0px );
     -webkit-backdrop-filter: blur( 0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
-#internacionais {
-    width: 30%;
-    height: 100%;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-} 
-
-
-
 
 
 footer {

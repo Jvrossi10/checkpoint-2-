@@ -6,6 +6,10 @@
 
 } 
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -163,10 +167,14 @@ main {
      font-family: 'Roboto', sans-serif;
 } 
 
+.div-itens:hover h3{
+    text-decoration: underline;
+ } 
+
 .div-itens:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
-
+    cursor: pointer;
 }
 
 .div-itens img { 
